@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Link to SCSS stylesheet -->
+    <link rel="stylesheet" href="styles/style.css" />
+
+    <!-- link to fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Vaccination.ng</title>
+  </head>
+
+  <body>
+    <div class="container-top">
+      <!-- Header section -->
+      <header>
+        <!-- Logo and menu icon -->
+        <div class="header-top">
+          <div class="logo">
+            <h1>Vaccination.ng</h1>
+          </div>
+
+          <!-- Hamburger icon to open side menu on mobile -->
+          <button class="toggle-menu" aria-label="Toggle menu">
+            <img src="assets/images/align-right.svg" alt="toggle menu" />
+          </button>
+        </div>
+
+        <!-- Main nav menu -->
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Schedule</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+
+          <button class="status-btn"><span>Check Status</span></button>
+        </nav>
+      </header>
+
+      <div class="desktop_container">
+        <!-- Hero section -->
+        <section class="hero">
+          <h1 class="hero_top_text">
+            Get Vaccinated. Boost your Immune System
+          </h1>
+          <h1 class="hero_mid_text">
+            COVID-19 Vaccination <br />
+            Got Easier With, <span>Vaccination.ng</span>
+          </h1>
+          <h1 class="hero_bottom_text">
+            Vaccination.ng will help you find the <br />
+            nearest centre for vaccination, in all <br />
+            36 states in Nigeria.
+          </h1>
+          <div class="hero_btns">
+            <button class="hero_btn_left">
+              <span>Get Vaccinated</span>
+            </button>
+            <button class="hero_btn_right">
+              <span>Help Centre</span>
+            </button>
+          </div>
+        </section>
+
+        <div class="banner">
+          <img
+            class="doc"
+            src="assets/images/chicken_doctor.png"
+            alt="Doctor checking"
+          />
+          <div class="banner_mid_image">
+            <img
+              class=""
+              src="assets/images/hero_banner.png"
+              alt="Hero banner"
+            />
+          </div>
+          <img
+            class="corona"
+            src="assets/images/corona.png"
+            alt="Doctor checking"
+          />
+          <div class="specialists">
+            <img src="assets/images/specialist1.png" alt="Specialist" />
+            <img src="assets/images/specialist2.png" alt="Specialist" />
+            <img src="assets/images/specialist3.png" alt="Specialist" />
+            <span class="banner_text_left">20+</span> <br />
+            <span class="banner_text_right">Specialists</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="schedule">
+        <div class="schedule_header">
+          <img src="assets/images/clock.svg" alt="clock" />
+          <span class="schedule_header_text">Schedule your Vaccination</span>
+        </div>
+
+        <div class="schedule_info_outer_box">
+          <div class="schedule_info_box">
+            <div class="schedule_info_box_info">
+              <img src="assets/images/map-pin.svg" alt="map pin" />
+              <div class="schedule_info_box_info_text">
+                <p class="schedule_info_box_info_text_top">Location</p>
+                <p class="schedule_info_box_info_text_bottom">
+                  Ikeja Lagos, Nigeria
+                </p>
+              </div>
+            </div>
+            <div class="schedule_info_box_info">
+              <img src="assets/images/calendar.svg" alt="calender" />
+              <div class="schedule_info_box_info_text">
+                <p class="schedule_info_box_info_text_top">Date</p>
+                <p class="schedule_info_box_info_text_bottom">
+                  29 February, 2022
+                </p>
+              </div>
+            </div>
+            <div class="schedule_info_box_info">
+              <img src="assets/images/shield.svg" alt="shield" />
+              <div class="schedule_info_box_info_text">
+                <p class="schedule_info_box_info_text_top">Vaccine Type</p>
+                <p class="schedule_info_box_info_text_bottom">Mordena</p>
+              </div>
+            </div>
+            <div class="schedule_info_submit">
+              <button class="schedule_info_submit_btn">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- container-top div ends here -->
+
+    <!-- vaccine logos -->
+    <div class="separator">
+      <img src="assets/images/Moderna_logo.png" alt="Moderna logo" />
+      <img src="assets/images/Pfizer.png" alt="Pfizer logo" />
+      <img src="assets/images/astra.png" alt="AstraZeneca logo" />
+      <img src="assets/images/sinovac.png" alt="Sinovac logo" />
+    </div>
+
+    <!-- database form section -->
+    <section class="db_section">
+      <div class="container">
+        <div class="result">
+          <div class="title">Check your COVID-19 result on our Database</div>
+          <form class="result__form">
+            <input type="text" id="fname" name="fname" value="Okeowo" /><br />
+            <input
+              type="text"
+              id="lname"
+              name="lname"
+              placeholder="NIK Number"
+            /><br /><br />
+            <button class="btn" type="button"><span>Check</span></button>
+          </form>
+          <h4 class="blue">
+            Need a certificate for your COVID-19 result? Please click
+            <a href="#" class="blue">here</a>
+          </h4>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why get vaccinated section -->
+    <section class="why-get-vac">
+      <div class="container">
+        <div class="vaccine-info">
+          <div class="vaccine-info__content">
+            <h2 class="font-basic" style="min-width: 50%">
+              Why get vaccinated <br />today?
+            </h2>
+            <p style="color: rgba(255, 255, 255, 0.5)">
+              Magna adipiscing at elit at ornare lectus nibh lorem. Ac, sed ac
+              lorem pellentesque vestibulum risus matti. In molestie condimentum
+              malesuada non.
+            </p>
+          </div>
+          <!-- Vaccination Benefits -->
+          <div class="vaccine-info__boxes">
+            <div class="vaccine-info__flex1">
+              <div class="vaccine-info__box special">
+                <div class="vaccine-info__icon">
+                  <img src="images/icons/shield.svg" alt="shield" />
+                </div>
+                <h2 class="blue">
+                  Protects your immune system against viruses
+                </h2>
+                <p>
+                  Velit ut consectetur mauris, orci amet, faucibus. Sit turpis
+                  fringilla ipsum pretium, dictum. Dolor eget vel nulla lorem
+                  ac.
+                </p>
+                <a href=""><span class="blue">Read more -></span></a>
+              </div>
+              <div class="vaccine-info__flex2">
+                <div class="vaccine-info__box">
+                  <div class="vaccine-info__icon">
+                    <img src="images/icons/users.svg" alt=" users" />
+                  </div>
+                  <h2>Minimize the spread of the Virus</h2>
+                  <p>
+                    Velit ut consectetur mauris, orci amet, faucibus. Sit turpis
+                    fringilla ipsum pretium, dictum. Dolor eget vel nulla lorem
+                    ac.
+                  </p>
+                  <span><a href="">Read more -></a></span>
+                </div>
+                <div class="vaccine-info__box">
+                  <div class="vaccine-info__icon">
+                    <img src="images/icons/thermo.svg" alt="thermo" />
+                  </div>
+                  <h2>Protect yourself</h2>
+                  <p>
+                    Velit ut consectetur mauris, orci amet, faucibus. Sit turpis
+                    fringilla ipsum pretium, dictum. Dolor eget vel nulla lorem
+                    ac.
+                  </p>
+                  <span><a href="">Read more -></a></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- vaccine registeration section -->
+
+    <section class="vac_reg"></section>
+  </body>
+</html>
