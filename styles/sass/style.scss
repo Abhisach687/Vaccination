@@ -847,6 +847,13 @@ header {
   color: $secondary_color;
 }
 
+@include desktop {
+  .cards {
+    display: flex;
+    gap: 40px;
+  }
+}
+
 // footer
 .footer {
   background: url("../../assets/images/footer_bg.png") center/cover, lightgray;

@@ -1046,6 +1046,12 @@ header .header-top .toggle-menu span {
   color: #17c2ec;
 }
 
+@media (min-width: 1025px) {
+  .cards {
+    display: flex;
+    gap: 40px;
+  }
+}
 .footer {
   background: url("../../assets/images/footer_bg.png") center/cover, lightgray;
   display: flex;
